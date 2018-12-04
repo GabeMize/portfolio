@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Project 1</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<a id="hamburger" class="header_menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+          </svg>
+        </a>
+		<img class="mylogo" src="img/logo.svg" alt="my logo">
+		<div class="header_inner">
+			<h1 class="header_name">Gabe Mize</h1>
+			<h2 class="header_job">Software Development</h2>
+		</div>
+	</header>
+	<nav id="menu">
+		<ul class="menu_list">
+			<li class="menu_item">
+				<a href="https://www.linkedin.com/in/gabe-mize-0b5496174/">Resume</a>
+			</li>
+			<li class="menu_item">
+				<a href="#">Blog</a>
+			</li>
+			<li class="menu_item">
+				<a href="#">Travel</a>
+			</li>
+			<li class="menu_item">
+				<a href="#">Contact Me</a>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<picture>
+			<source media="(max-width: 550px)" srcset="img/hero_small.png">
+			<img class="hero" src="img/hero.png" alt="main image">
+		</picture>
+		<h2 class="work">Featured Work</h2>
+		<div class="projects">
+			<section id="memory" class="ps">
+				<a href="#"><img class="image" src="img/memory.png" alt="memory game"></a>
+				<h4 class="projecttitles">Memory Game</h4>
+				<p class="description">
+					Children's matching memory game.  Flip the cards to see if you can find all the matches.
+				</p>
+			</section>
+			<section id="arcade" class="ps">
+				<a href="#"><img class="image" src="img/arcade.png" alt="arcade game"></a>
+				<h4 class="projecttitles">Arcade Game</h4>
+				<p class="description">
+					Classic cloned arcade game.  Can you bet your high score?
+				</p>			
+			</section>
+			<section id="feedreader" class="ps">
+				<a href="#"><img class="image" src="img/feedreader.png" alt="feed reader"></a>
+				<h4 class="projecttitles">Reader</h4>
+				<p class="description">
+					Reader for internet sites.
+				</p>			
+			</section>
+			<section id="review" class="ps">
+				<a href="#"><img class="image" src="img/reviewimage.png" alt="restaurant review game"></a>
+				<h4 class="projecttitles">Restaurant Review</h4>
+				<p class="description">
+					Reviews of your favorite local restaurants.  Where's the best pizza place?
+				</p>			
+			</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<hr>
+		<a href="https://www.linkedin.com/in/gabe-mize-0b5496174/">LinkedIn</a>	
+		<a href="https://github.com/GabeMize">GitHub</a>	
+	</footer>
+	<script type="text/javascript" src="js/hamburger.js"></script>
+</body>
